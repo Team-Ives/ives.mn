@@ -2,27 +2,63 @@
 layout: homepage
 ---
 
-<div id="home" class="container-fluid">
-  <div id="nav">
-
-  <ul class="nav nav-pills">
-    <li role="presentation" class="active"><a href="#">Home</a></li>
-    <li role="presentation"><a href="#">Profile</a></li>
-    <li role="presentation"><a href="#">Messages</a></li>
+<div class="container-fluid">
+  <ul id="nav" class="nav nav-pills navbar-fixed-top">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#examples">Examples</a></li>
   </ul>
-  </div>
+</div>
+
+<div id="home" class="container-fluid header">
+
 </div>
 
 <div id="about" class="container-fluid">
+  <h1>We make web sites.</h1>
+  <h2>Want one?</h2>
+  <p>Mlkshk lo-fi direct trade, craft beer cliche meditation semiotics ramps forage. Asymmetrical kogi mlkshk fixie vinyl. Wolf lo-fi kombucha, kogi polaroid cliche chartreuse pickled affogato normcore fingerstache squid brooklyn fashion axe mustache. Pabst squid quinoa, chartreuse yuccie cred cold-pressed leggings vinyl. Leggings taxidermy yr listicle artisan chillwave. Marfa hammock messenger bag, squid shoreditch chicharrones authentic gastropub. Schlitz selfies letterpress shoreditch, neutra DIY quinoa keffiyeh seitan kale chips chillwave.</p>
 
-
-
+  <p>Meh offal leggings, kitsch echo park 8-bit fingerstache hashtag butcher XOXO tousled. Slow-carb farm-to-table migas kale chips. 3 wolf moon knausgaard authentic vinyl flexitarian. Lo-fi hoodie next level celiac green juice affogato. You probably haven't heard of them bitters wolf blue bottle butcher, etsy selfies XOXO. Franzen pickled narwhal, organic +1 waistcoat truffaut pabst marfa fashion axe plaid lo-fi single-origin coffee. Yr tote bag four loko, waistcoat meggings quinoa mixtape microdosing typewriter tousled retro plaid.</p>
 </div>
 
-<div id="examples" class="container-fluid">
 
+<!-- ::::::::::::: Carousel ::::::::::::: -->
 
+<div id="examples" class="carousel slide container-fluid" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#examples" data-slide-to="0" class="active"></li>
+    <li data-target="#examples" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="/media/cgives-site.png" alt="...">
+      <div class="carousel-caption">
+        text 1
+      </div>
+    </div>
+    <div class="item">
+      <img src="/media/alex.ives.mn.png" alt="...">
+      <div class="carousel-caption">
+        text 2
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#examples" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#examples" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
+
 
 <div id="contact" class="container-fluid">
 
